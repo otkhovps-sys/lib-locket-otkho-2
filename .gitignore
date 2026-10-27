@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*session.json
+chat_history*.json
+my_moments_*.json
+*.tsbuildinfo
+*.tgz

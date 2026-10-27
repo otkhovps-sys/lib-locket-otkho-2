@@ -1,0 +1,12 @@
+{
+  "name": "locket-workspace",
+  "private": true,
+  "workspaces": ["dome"],
+  "packageManager": "npm@11.11.0",
+  "scripts": {
+    "build": "npm run build --workspace locket-sdk",
+    "typecheck": "npm run typecheck --workspace locket-sdk",
+    "test": "npm test --workspace locket-sdk",
+    "demo": "tsx dome/examples/en/interactive-demo.ts"
+  }
+}
